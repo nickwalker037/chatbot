@@ -1,0 +1,98 @@
+Context,Utterance,Tag,Context_set,Context_link
+Hi,Hey! How are you?,greeting,greeting1,
+Hey,Hey! How are you?,greeting,greeting1,
+How are you?,Good! And you?,greeting,greeting1,
+Is anyone there?,"Yep, I'm here! How are ya?",greeting,greeting1,
+Hello,Hey! How are you?,greeting,greeting1,
+Good day,To you as well! How are you?,greeting,greeting1,
+sup,"nothing much, and you?",greeting,greeting1,
+what's up,"nothing much, and you?",greeting,greeting1,
+what's up,"Not much, what about you?",greeting,greeting1,
+yo,"yo, how's it going?",greeting,greeting1,
+Good morning,Good morning! How are you?,greeting,greeting1,
+Good Day,Good day! How are you?,greeting,greeting1,
+good afternoon,Good afternoon! How are you?,greeting,greeting1,
+good evening,Good evening! How are you?,greeting,greeting1,
+long time no see,It's been a while! How are you?,greeting,greeting1,
+Greetings!,Greetings earthling!,greeting,,
+"Hi, how is it going?","Great, enjoying this sunny day",greeting,,
+"Hi, how is it going?","Could be better, a little rainy today",greeting,,
+Hello,Hey there,greeting,,
+Hey,Hey hey hey,greeting,,
+How are you doing?,"Very well, thanks",greeting,,
+How are you doing?,Splendid,greeting,,
+Nice to meet you,And you as well,greeting,,
+How do you do?,I'm doing well. How are you?,greeting,greeting1,
+"Hi, nice to meet you","Thanks, you too!",greeting,,
+Top of the morning to you!,And you as well,greeting,,
+It is a pleasure to meet you,The pleasure is mine,greeting,,
+Hello is this the messenger bot?,"Yep, I'm here! How are ya?",greeting,greeting1,
+Hello is this the bot?,"Yep, I'm here! How are ya?",greeting,greeting1,
+"Hello, ","Yep, I'm here! How are ya?",greeting,greeting1,
+"Good, and you?",Great! How can I help you today?,,,greeting1
+"Fine, you?",Great! How can I help you today?,,,greeting1
+Great,Great to hear! How can I help you today?,,,greeting1
+splendid,Great to hear! How can I help you today?,,,greeting1
+wonderful,Great to hear! How can I help you today?,,,greeting1
+super,Great to hear! How can I help you today?,,,greeting1
+Could be better,"Agreed, nothing a _____ couldn't fix! How can I help you today?",,,greeting1
+Okay,What can I do for you?,,,greeting1
+"Very well, thanks","No problem, what can I do for you?",,,greeting1
+Fine,How can I help?,,,greeting1
+"I'm doing well, thank you","No problem, what can I do for you?",,,greeting1
+Terrible,"I'm sorry to hear that, we all have terrible days sometimes. Can I do anything to help?",,,greeting1
+Bad,"I'm sorry to hear that, we all have bad days sometimes. Can I do anything to help?",,,greeting1
+pretty sad today,How come?,,,greeting1
+shitty,"Yikes, sounds rough",,,greeting1
+What are your hours?,We're open every day 9am-9pm,hours,,
+What hours are you open?,Our hours are 9am-9pm every day,hours,,
+When are you open?,Our hours are 9am-9pm every day,hours,,
+I'd like to make a reservation,"I'll need the date, time and number of people",reservation,reservation1,
+Do you have availability for tonight?,"Yep, at 9pm",reservation,reservation1,
+Can I book a table for ?,For tonight?,reservation,reservation1,
+Do you have any specials today?,Corn flakes on the rocks,specials,,
+Any deals?,Corn flakes on the rocks,specials,,
+Which specials do you have?,Corn flakes on the rocks,specials,,
+Any discounts?,Corn flakes on the rocks,specials,,
+Any coupons?,Corn flakes on the rocks,specials,,
+Do you take credit cards?,"We accept VISA, Mastercard and AMEX",payment,,
+Do you accept Mastercard?,"We accept VISA, Mastercard and AMEX",payment,,
+Are you cash only?,"We accept VISA, Mastercard and AMEX",payment,,
+Do you accept refunds?,"Currently we do not refund money, but you're welcome to submit a complaint for our team to review",refund,complaint1,
+can I have a refund?,"Currently we do not refund money, but you're welcome to submit a complaint for our team to review",refund,complaint1,
+Do you accept returns?,"Currently we do not refund money, but your opinion means a lot to us. Would you like to submit a formal complaint for our team to review?",refund,complaint1,
+I want my money back,"Currently we do not refund money, but you're welcome to submit a complaint for our team to review",refund,complaint1,
+What is your refund policy?,"Currently we do not refund money, but your opinion means a lot to us. Would you like to submit a formal complaint for our team to review?",refund,complaint1,
+refund my money,"Currently we do not refund money, but your opinion means a lot to us. Would you like to submit a formal complaint for our team to review?",refund,complaint1,
+I want to submit a complaint,Sorry to hear that. Please just type your complaint here and I will forward it to the manager immediately,complaints,formal_complaint,
+My food wasn't what I expected,Sorry to hear that. Please type your complaint here and I will send it to the manager,complaints,formal_complaint,
+My order wasn't correct,Sorry to hear that. Please type your complaint here and I will send it to the manager,complaints,formal_complaint,
+No thanks,"Ok no problem, I hope you have a better experience next time",,,complaint1
+No,"Ok no problem, I hope you have a better experience next time",,,complaint1
+Yes,Please just type your complaint here and I will forward it to a manager,,formal_complaint,complaint1
+"Yes, how do I do that?",Please just type your complaint here and I will forward it to a manager,,formal_complaint,complaint1
+"Yes, where can I?",Please just type your complaint here and I will forward it to a manager,,formal_complaint,complaint1
+Yes how?,Please just type your complaint here and I will forward it to a manager,,formal_complaint,complaint1
+what would you recommend?,"___ is our most popular dish, but are you in the mood for anything in particular?",recommendation,recommend1,
+what is your most popular dish?,___ is our most popular dish according to yelp :) ,recommendation,,
+which dish would you recommend? ,"___ is our most popular dish, but are you in the mood for anything in particular?",recommendation,recommend1,
+I'm in the mood for,Then I think ___ or ___ would be your best bet,recommendation,,recommend1
+I like,Then I think ___ or ___ would be your best bet,recommendation,,recommend1
+I would like in my dish,Then I think ___ or ___ would be your best bet,recommendation,,recommend1
+sounds delicious,Then I think ___ or ___ would be your best bet,recommendation,,recommend1
+sounds delicious right now,Then I think ___ or ___ would be your best bet,recommendation,,recommend1
+that sounds good,Then I think ___ or ___ would be your best bet,recommendation,,recommend1
+Do you have ,,menu,,
+What is ,,menu,,
+Whats ,,menu,,
+What's ,,menu,,
+Do you serve ,,menu,,
+I would like to place an order for delivery,great! what would you like? ,order,,
+order for delivery please,I can do that! what do you want to order?,order,,
+do you deliver?,"yes, would you like to place an order?",order,,complaint1
+I would like to place an order for pick up,great! what would you like? ,order,,complaint1
+order for pickup please,great! what would you like? ,order,,complaint1
+i want to pickup an order,great! what would you like? ,order,,
+Do you have parking available?,yes! free parking out front,parking,,
+Is there parking at your building?,yes! free parking is out front,parking,,
+Does your restaurant have parking?,yes! there is free parking out front,parking,,
